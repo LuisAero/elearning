@@ -24,6 +24,13 @@ public class StudentDTO {
 		this.currentPopularSubject = currentPopularSubject;
 	}
 
+	public StudentDTO(String studentName, Collection<String> currentSubject, Boolean currentPopularSubject){
+		super();
+        this.studentName = studentName;
+        this.currentSubject = currentSubject;
+        this.currentPopularSubject = currentPopularSubject;
+	}
+
 	public String getStudentName() {
 		return studentName;
 	}
